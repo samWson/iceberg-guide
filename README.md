@@ -9,7 +9,12 @@ Iceberg is Pharo's native git client. To open it select it from the world menu, 
 All workflows assume the Iceberg client is open and displaying the Iceberg repositories table. I have tried to match the workflows to the corresponding commands you would use for the Git command line interface.
 ### Git init
 There are several ways of initializing a git repository in Iceberg, some of them use an already existing repository.
-#### Adding a git repository on your local computer
+#### Creating a new git repository
+My prefered method of doing this is to use git to initialize the repository outside of Pharo. When trying to use Iceberg to initialize a repository it has always had an error in my exeperience.
+1. At the command line in the directory where your repository is to be, run the command `git init`.
+2. Using Iceberg continue the steps in **Adding a git repository already on your local computer**.
+
+#### Adding a git repository already on your local computer
 This is for when you already have an existing git repository on your computer and you want to add it to the repositories tracked by Iceberg.
 1. In the top right corner click `Add local repository`. The dialog box `Import local repository into Iceberg` will open.
 2. In the `Local directory` text field enter the file path of the existing git repository root directory, or use the file icon on the right of the text field to navigate to the root director with a file explorer.
