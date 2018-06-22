@@ -1,5 +1,6 @@
-# Iceberg Test
-Testing Pharo's Iceberg git tool
+# Iceberg Guide
+Documenting Pharo's Iceberg git tool.
+
 ## Preamble
 Git and Github is my preferred way of sharing my software, and Smalltalk is one of my favorite programming languages. However, I have found Pharo's native git client Iceberg to be confusing, poorly documented, and a chore to use.
 This repository is my attempt to understand Iceberg and document git workflows.
