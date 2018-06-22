@@ -32,3 +32,8 @@ To track changes Iceberg must track one or more Pharo packages in the repository
 1. Right click on the repository in the table of repositories and select `Synchronize repository...`. The `Synchronizing` dialog will open.
 2. Select the `Commit your changes` tab. The `Local changes` pane will show the code changes in a tree of packages, classes, and methods as nodes. When a node with code changes is selected the code diffs will be displayed in the bottom left and right panes.
 3. Enter a commit message in the `Commit changes` pane on the top right. Click the `Commit onto master` button to commit the changes. Note that "master" on the button label will likely be different if you are checked out on a different branch.
+
+### Git branch
+#### Creating a new branch
+1. Select the `Branches` tab below the Repositories table. This will display all branches in the repository including known remote branches.
+2. Click on the `Create Branch` button at the top right of the tab, enter a name and click `OK`.
